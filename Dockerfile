@@ -1,6 +1,6 @@
 # --- ЭТАП 1: Сборка (Builder) ---
 # Берем официальный образ Rust (версия slim весит меньше)
-FROM rust:1.82-slim as builder
+FROM rust:latest as builder
 
 # Устанавливаем системные зависимости для сборки.
 # pkg-config и libssl-dev ОБЯЗАТЕЛЬНЫ для сборки sqlx и работы с HTTPS

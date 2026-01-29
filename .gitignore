@@ -1,0 +1,6 @@
+/target
+.env
+.DS_Store
+Thumbs.db
+*.log
+quiz.db
